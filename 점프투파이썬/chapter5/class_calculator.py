@@ -1,8 +1,5 @@
-#점프투파이썬 6
+#점프투파이썬 5장
 class FourCal:
-    def __init__(self, first, second):
-        self.first = first
-        self.second = second
     def setdata(self, first, second):#메서드의 매개변수, 첫 번째 매개변수 이름은 self
         self.first = first  #메서드의 수행문
         self.second = second
@@ -18,12 +15,10 @@ class FourCal:
     def div(self):
         result = self.first / self.second
         return result
+a = FourCal()
+a.setdata(3,8)
+print(a.add())
+print(a.mul())
+print(a.sub())
+print(a.div())
 
-
-#클래스의 상속
-class MoreFourCal(FourCal):
-    def pow(self):
-        result = self.first ** self.second
-        return result
-a = MoreFourCal(4,2)
-print(a.pow())
