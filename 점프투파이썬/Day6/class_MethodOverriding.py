@@ -1,3 +1,4 @@
+#점프투파이썬 6장
 class FourCal:
     def __init__(self, first, second):
         self.first = first
